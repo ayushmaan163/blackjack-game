@@ -43,8 +43,20 @@ button {
 #start-game {
   margin-top: 15px;
 }
+#start-game:hover {
+  background-color: #a6232e;
+  cursor: pointer;
+  transform: scale(1.15);
+  transition-duration: 0.5s;
+}
 #new-card {
   margin-top: 10px;
+}
+#new-card:hover {
+  background-color: #a6232e;
+  cursor: pointer;
+  transform: scale(1.15);
+  transition-duration: 0.5s;
 }
 
 #player-el {
